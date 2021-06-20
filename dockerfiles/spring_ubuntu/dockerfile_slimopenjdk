@@ -1,0 +1,5 @@
+# FROM openjdk:8
+FROM openjdk:8-jre-slim
+ADD https://storage.googleapis.com/sivak8dpublicrepo/spring-petclinic-2.4.5.jar /spring-petclinic.jar
+EXPOSE 8080
+CMD ["java", "-jar", "/*.jar"]
