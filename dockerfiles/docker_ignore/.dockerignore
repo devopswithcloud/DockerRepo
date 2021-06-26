@@ -1,0 +1,5 @@
+# ingore 
+first.txt
+src/*
+readme.md
+Dockerfile
