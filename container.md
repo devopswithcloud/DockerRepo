@@ -1,3 +1,16 @@
+### **`Container Commands`**
+
+```syntax```:
+> * docker docker-object sub-command [options] [arguments]
+> * Example: 
+>   * docker contianer list
+
+```Pull the Image```
+> docker pull ubuntu:16.04
+
+``` Pull + Create the image```
+> docker container create httpd
+
 
 ### **` Basic commands`**
 ```bash
