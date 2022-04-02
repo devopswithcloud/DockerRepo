@@ -12,7 +12,7 @@
 > docker container create httpd
 
 
-### **` Basic commands`**
+### **` Container  commands`**
 ```bash
 
 # Pull the image
