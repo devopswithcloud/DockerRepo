@@ -3,10 +3,19 @@ docker pull imagename
 
 docker image pull alpine:3.6 # Just pulls the image, doens't run (dont create a contianer)
 
-docker images --no-trunc
+docker search httpd # by default gives 25 lines 
+
+docker search --limit=2
+
+docker search --filter stars=10 -h
+
+docker search --filter is-official=true httpd
+
 docker images --filter=reference='alpine'
 
+docker pull imagename
 
+docker image pull alpine:3.6 # Just pulls the image, doens't run (dont create a contianer)
 
 # List image name by tag
 docker images alpine:3.6
